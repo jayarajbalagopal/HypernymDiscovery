@@ -28,6 +28,7 @@ device = torch.device("cuda:0" if torch.cuda.is_available() else "cpu")
 
 def predict_candidate_hypernyms(model, hyponym):
 
+    hyponym = hyponym.lower()
         
     try:
         # Encode the hyponym using the vocabulary

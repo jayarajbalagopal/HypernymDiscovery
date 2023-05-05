@@ -313,6 +313,10 @@ torch.save(modelLSTM, 'model_LSTM.pt')
 train(modelFC, optimizerFC, hyponym_hypernym_dict, hyponym_negative_hypernym_dict, num_epochs=15)
 torch.save(modelFC, 'model_FC.pt')
 
+idx_to_word = {}
+for k, v in vocab_hypernym.items():
+    idx_to_word[v]=k
+    
 def calculate_MAP(model, test_hyponyms, test_hypernyms, k=10):
     model.eval()
     APs = []

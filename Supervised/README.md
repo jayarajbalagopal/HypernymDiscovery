@@ -16,3 +16,8 @@ Each of the task directory contains pickle files, please don't delete or overwri
 run `python3 predict.py`
 
 On successful execution, the user is expected to provide an input hyponym and the model will ouput the top 10 matching hypernyms corressponding to the given input.
+
+### Download pretrained models
+In case you need to download the pretrained models insted of training them, download models from the following drive link
+`https://drive.google.com/drive/folders/12yF-aNLq7tkO6l4jKqJ9-99LeOTeyl8K?usp=sharing`
+and place them in the appropriate directories (1A, 1B or 1C).
