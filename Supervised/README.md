@@ -1,4 +1,4 @@
-# SUPERVISED 
+# Supervised
 
 ### How to train the models
 run `python3 train.py`   
