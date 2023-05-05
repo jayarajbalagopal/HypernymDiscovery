@@ -1,6 +1,7 @@
 # Hypernym Discovery
 
 ## Supervised method
+Check the sub-directory for information to train and run the code.
 
 
 ## Unsupervised Method
